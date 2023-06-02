@@ -8,8 +8,8 @@
 
 #lista.sort(reverse=True) => Ordenar a lista de forma decrescente
 #lista.sort() => Ordenarlista de forma crescente
+#lista.sort(key=len) = ordena lista con palabras por longitud de menor a mayor
 #lista.reverse() => Ordenar lista en reversa
-#lista.
 
 lista = [1, 50, 25, 100, 75]
 print("inicial: ", lista)
