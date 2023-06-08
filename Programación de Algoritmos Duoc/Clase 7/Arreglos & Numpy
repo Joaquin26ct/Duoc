@@ -1,0 +1,65 @@
+#pip install numpy en la terminal, luego usar import numpy (as np) en el código
+
+import numpy as np
+
+lista = [1, 2, 3, 4, 5]
+print (lista)
+
+arreglo = np.array(lista)
+print (arreglo)
+
+#ndim = muestra las dimensiones del arreglo
+print(arreglo.ndim)
+
+#size = muestra el largo del arreglo
+print(arreglo.size)
+
+#shape = muestra la forma del arreglo (filas, columnas, profundidad)
+print(arreglo.shape)
+
+
+#formas de rellenar un array
+
+#forma 1 = array con relleno por ciclo FORT
+arreglo3 = np.arange(1,11)
+print (arreglo3)
+
+#-----recorrer datos del arreglo-----
+
+#for i
+for i in range (10):
+    print (arreglo3[i])
+    print("--------------------------------")
+#foreach
+for i in arreglo3:
+    print(i)
+print("--------------------------------")
+
+
+
+#--------------------------------------------
+         #Operaciones matematicas
+#--------------------------------------------
+
+#SUMARLE 5 al arreglo
+arreglo3+=5
+print (arreglo3)
+
+#multiplicar el arreglo
+arreglo3*=5
+print (arreglo3)
+
+#Comparar
+print(arreglo3 > arreglo)
+
+#Utilidades
+#Sum = suma todos los valores del arreglo
+print(arreglo3.sum())
+
+#Mean = Genera el promedio de los valores del arreglo
+print(arreglo3.mean())
+
+#Max = el valor mas alto
+#Min = el mas bajo
+print(arreglo3.max())
+print(arreglo3.min())
