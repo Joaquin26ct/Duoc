@@ -63,3 +63,7 @@ print(arreglo3.mean())
 #Min = el mas bajo
 print(arreglo3.max())
 print(arreglo3.min())
+
+for y in range(10):
+    for x in range(10):
+        print(arreglo3[y,x])
